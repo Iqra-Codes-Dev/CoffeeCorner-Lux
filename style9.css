@@ -1,0 +1,94 @@
+/* ================= GLOBAL ================= */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFEBC1;
+    padding-top: 80px;
+    color: #43150A;
+}
+
+h2, h4, h6 {
+    color: #43150A;
+}
+
+.container {
+    background-color: #fff3d3;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* ================= ORDER SUMMARY ================= */
+.list-group-item {
+    background-color: #fff6e3;
+    border: 1px solid #ffdca8;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.list-group-item h6 {
+    font-weight: 500;
+}
+
+.list-group-item.bg-light {
+    background-color: #ffdca8;
+    font-weight: bold;
+}
+
+.badge {
+    background-color: #932f17;
+    color: #fff;
+}
+
+/* ================= FORM ================= */
+form .form-control {
+    border-radius: 10px;
+    border: 2px solid #43150A;
+    background-color: #FFEBC1;
+    color: #43150A;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+form .form-control:focus {
+    border-color: #932f17;
+    box-shadow: 0 0 10px rgba(147, 47, 23, 0.5);
+    background-color: #fff3d3;
+}
+
+label {
+    font-weight: 600;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+/* ================= BUTTONS ================= */
+.btn-primary {
+    background: linear-gradient(135deg, #932f17, #43150A);
+    border: none;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #43150A, #932f17);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+ 
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-md-5, .col-md-7 {
+        order: unset ;
+    }
+    .container {
+        padding: 20px;
+    }
+}

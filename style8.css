@@ -1,0 +1,144 @@
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFEBC1;
+    padding-top: 80px;
+    color: #43150A;
+}
+
+/* Cart Heading */
+h2.text-center {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #43150A;
+    margin-bottom: 50px;
+}
+
+/* Cart Card */
+.cart-card {
+    background-color: #fff3d3;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(67, 21, 10, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.cart-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(67, 21, 10, 0.3);
+}
+
+/* Product Image */
+.cart-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #fdc20c;
+}
+
+/* Card Body */
+.cart-card .card-body {
+    padding: 1.5rem;
+}
+
+/* Product Title */
+.cart-card h5.card-title {
+    font-weight: 600;
+    color: #932f17;
+}
+
+/* Description */
+.cart-card p.text-muted {
+    font-size: 0.9rem;
+    color: #7A3B2E;
+}
+
+/* Price */
+.cart-card h6.text-primary {
+    color: #d2691e;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Quantity Input */
+.qty-input {
+    width: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #43150A;
+}
+
+/* Buttons */
+.cart-card .btn-outline-success {
+    border-radius: 25px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #43150A, #932f17);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.cart-card .btn-outline-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(67,21,10,0.4);
+}
+
+.cart-card .btn-danger {
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 0.35rem 0.75rem;
+    background-color: #ef0b0b;
+    border: none;
+    color: #fff;
+}
+
+.cart-card .btn-danger:hover {
+    background-color: #a0522d;
+}
+
+/* Subtotal & Grand Total */
+.cart-card .text-success,
+.col-12 h3 span.text-primary {
+    font-weight: 700;
+    color: #d2691e;
+}
+
+/* Checkout Button */
+.col-12 .btn-warning {
+    background: linear-gradient(135deg, #932f17, #43150A);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+
+.col-12 .btn-warning:hover {
+    background-color: #a0522d;
+}
+
+/* Empty Cart Message */
+.text-center h4 {
+    color: #932f17;
+    font-weight: 600;
+}
+
+.text-center .btn-primary {
+    background: linear-gradient(135deg, #932f17, #43150A);
+    border-radius: 25px;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+
+.text-center .btn-primary:hover {
+    background-color: #a0522d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cart-card img {
+        height: 180px;
+    }
+}

@@ -1,0 +1,13 @@
+# Ignore Libraries
+PHPMailer/
+php-mail/
+
+# Ignore Environment Files
+.env
+
+# Ignore Cache and Logs
+storage/framework/cache/*
+storage/logs/*
+
+# Ignore Vendor folder (if any)
+vendor/
